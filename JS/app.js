@@ -16,7 +16,7 @@ apellido = prompt("Por favor, ingresa tu apellido");
 if (apellido === null) {
 alert("No ingresaste tu apellido.");
 } else if (/^[A-Za-z]+$/.test(apellido)) {
-alert("¡Hola, " + nombre + apellido, "!");
+    alert("¡Hola, " + nombre + " " + apellido + "!");
 break;
 } else {
 alert("Por favor, ingresa un apellido válido sin números.");
