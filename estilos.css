@@ -1,0 +1,7 @@
+
+.jumbotron {
+    background-image: url(./img/padel.avif);
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+}
